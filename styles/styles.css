@@ -7,6 +7,23 @@
   padding: 5px;
 }
 
+.sticky-header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.sticky-header ul li a {
+  color: red;
+}
+
+.flex-experience {
+  display: flex;
+  background-color: aqua;
+  gap: 10px;
+}
+
 .container {
   /* padding: 20px; */
 }
@@ -22,4 +39,55 @@
   border: 2px solid #000;
   padding: 10px;
   margin-bottom: 20px;
+}
+
+.border-radius .radius-box {
+  border: 2px solid red;
+  border-radius: 15px;
+  background-color: aqua;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.box-shadow .shadow-box {
+  border: 2px solid black;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 5px;
+}
+
+.overflow-section .overflow-box {
+  width: 50px;
+  height: 100px;
+  overflow: hidden;
+  background-color: bisque;
+  margin-bottom: 20px;
+}
+
+.positioning-section {
+  position: relative;
+  height: 200px;
+  border: 2px solid black;
+  background-color: aqua;
+  margin-bottom: 20px;
+}
+
+.positioning-section .relative-box {
+  position: relative;
+  top: 1.5em;
+  left: 1.5em;
+  background-color: pink;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.positioning-section .absolute-box {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rebeccapurple;
+  padding: 10px;
+}
+
+.border-radius-circle img {
+  border-radius: 50%;
 }
